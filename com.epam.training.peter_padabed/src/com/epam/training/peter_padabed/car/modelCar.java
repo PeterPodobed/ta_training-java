@@ -1,4 +1,4 @@
 package com.epam.training.peter_padabed.car;
 
-public class modelCar {
+public enum modelCar {
 }
