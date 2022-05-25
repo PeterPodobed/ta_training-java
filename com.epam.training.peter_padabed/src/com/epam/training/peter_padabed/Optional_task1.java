@@ -1,7 +1,7 @@
 package com.epam.training.peter_padabed;
 import java.util.Scanner;
 
-public class optional_task1 {
+public class Optional_task1 {
     public static void main(String[] args) {
 
         Scanner number = new Scanner(System.in);

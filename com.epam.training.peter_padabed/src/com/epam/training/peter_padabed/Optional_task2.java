@@ -3,7 +3,7 @@ package com.epam.training.peter_padabed;
 import java.util.Scanner;
 import java.util.Random;
 
-public class optional_task2 {
+public class Optional_task2 {
     public static void main(String[] args) {
         Scanner size = new Scanner(System.in);
         System.out.println("Введите размерность двумерной матрицы: ");
