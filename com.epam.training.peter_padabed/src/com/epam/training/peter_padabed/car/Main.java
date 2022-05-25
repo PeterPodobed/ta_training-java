@@ -16,16 +16,19 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        switch (n){
+        switch (n) {
             case 1: {
                 ChangeModel.model(modelAuto);
-                break; }
+                break;
+            }
             case 2: {
                 ChangeModelYear.ChangeModelYear(modelAuto, year);
-                break;}
+                break;
+            }
             case 3: {
                 ChangeYearPrice.ChangeYearPrice(price, year);
-                break;}
+                break;
+            }
             default:
                 System.out.println("Введите корректные данные");
         }
@@ -36,7 +39,6 @@ public class Main {
         car.auto("BMW", "530", 2015, "RED", 19000, "1500-7");
         car.auto("OPEL", "CORSA", 2012, "GREEN", 11000, "0221-7");
     }
-
 
 
 }
